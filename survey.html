@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Survey | Mohamedi</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <nav class="nav-glass">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="portfolio.html">Projects</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="survey.html" class="active">Survey</a></li>
+    </ul>
+  </nav>
+
+  <main class="glass-section">
+    <h2 class="center-text">User Survey</h2>
+    <form>
+      <label>How did you find my site?</label>
+      <input type="radio" name="source" id="search"><label for="search">Google</label><br>
+      <input type="radio" name="source" id="social"><label for="social">Social Media</label><br>
+      <input type="radio" name="source" id="referral"><label for="referral">Referral</label><br>
+
+      <label>What are you interested in?</label>
+      <input type="checkbox" id="webdev"><label for="webdev">Web Development</label><br>
+      <input type="checkbox" id="design"><label for="design">UI/UX Design</label><br>
+      <input type="checkbox" id="consult"><label for="consult">Consultation</label><br>
+
+      <label for="feedback">Any feedback for me?</label>
+      <textarea id="feedback" rows="4"></textarea><br>
+
+      <button type="submit">Submit Survey</button>
+    </form>
+  </main>
+
+  <footer class="footer-glass">
+    <p>&copy; 2025 Mohamedi Said Shango</p>
+  </footer>
+</body>
+</html>

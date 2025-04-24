@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Mohamedi Said Shango Portfolio" />
+  <meta name="author" content="Mohamedi Said Shango" />
+  <title>Welcome | Mohamedi</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+</head>
+<body onload="greetUser()">
+  <header class="hero-glass">
+    <div class="glass-card">
+      <h1>Hello, I’m Mohamedi</h1>
+      <p>Creative Web Developer | Designer</p>
+      <a href="portfolio.html" class="btn-glass">Explore My Work</a>
+    </div>
+  </header>
+
+  <nav class="nav-glass">
+    <ul>
+      <li><button id="toggleTheme" class="btn-glass" style="margin: 1rem;">Toggle Theme</button>
+      </li>
+      <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="portfolio.html">Projects</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="survey.html">Survey</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section class="glass-section center-text">
+      <h2>Where I’m From</h2>
+      <img src="images/map.png" usemap="#tanzania" alt="Map of Tanzania" width="600" />
+      <map name="tanzania">
+        <area shape="circle" coords="300,200,40" href="https://en.wikipedia.org/wiki/Dodoma" alt="Dodoma" target="_blank" />
+        <area shape="rect" coords="50,100,200,300" href="https://en.wikipedia.org/wiki/Mbeya" alt="Mbeya" target="_blank" />
+      </map>
+    </section>
+
+    <section class="glass-section center-text">
+      <h2>Portfolio Intro</h2>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/MDLn5-zSQQI?autoplay=1&mute=1" frameborder="0" allowfullscreen></iframe>
+    </section>
+  </main>
+
+  <footer class="footer-glass">
+    <p>&copy; 2025 Mohamedi Said Shango. All rights reserved.</p>
+  </footer>
+</body>
+</html>
